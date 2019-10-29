@@ -1,0 +1,5 @@
+<input type="text"  maxlength="16" (keypress)="numberOnly($event)" [(ngModel)]="mod">
+
+<p>
+  <b>Result <br> {{mod | pipe : mod }} </b>
+</p>
